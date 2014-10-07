@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Key</key>
+			<string>sleep_time</string>
+			<key>Title</key>
+			<string>Sleep Time</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Titles</key>
+			<array>
+				<string>NO</string>
+				<string>15 mins</string>
+				<string>30 mins</string>
+				<string>45 mins</string>
+				<string>1 hour</string>
+				<string>1 hour 30 mins</string>
+				<string>2 hours</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Title</key>
+			<string>Use 3G Data</string>
+			<key>Key</key>
+			<string>use_3gdata</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Key</key>
+			<string>app_recommend</string>
+			<key>Title</key>
+			<string>App Recommend</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Titles</key>
+			<array>
+				<string>NO</string>
+				<string>15 mins</string>
+				<string>30 mins</string>
+				<string>45 mins</string>
+				<string>1 hour</string>
+				<string>1 hour 30 mins</string>
+				<string>2 hours</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Sina Weibo</string>
+			<key>Key</key>
+			<string>weibo</string>
+			<key>DefaultValue</key>
+			<string>Not Bundle</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Tencent Weibo</string>
+			<key>Key</key>
+			<string>tencent</string>
+			<key>DefaultValue</key>
+			<string>Not Bundle</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Renren</string>
+			<key>Key</key>
+			<string>renren</string>
+			<key>DefaultValue</key>
+			<string>Not Bundle</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>About Douban FM</string>
+			<key>Key</key>
+			<string>renren</string>
+			<key>IASKViewControllerSelector</key>
+			<string>init</string>
+			<key>IASKViewControllerClass</key>
+			<string>AboutController</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

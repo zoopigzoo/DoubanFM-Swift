@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74D9B7771CD046EEA08AFAA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9076BF71F82C42B2A5D1BDCD /* libPods.a */; };
+		D311E0CF19DE53B700A472EF /* RoundUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D311E0CE19DE53B700A472EF /* RoundUIImageView.swift */; };
+		D311E0D119DE667500A472EF /* RoundProgressUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D311E0D019DE667500A472EF /* RoundProgressUIView.swift */; };
+		D3D757A019D7069F002A2B8F /* userdefault.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7579F19D7069F002A2B8F /* userdefault.png */; };
+		D3D757A219D85044002A2B8F /* MyFMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D757A119D85044002A2B8F /* MyFMViewController.swift */; };
+		D3D757A419D85084002A2B8F /* MyFMTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D757A319D85084002A2B8F /* MyFMTableCell.swift */; };
+		D3D757A819D8511C002A2B8F /* MyFMTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D757A719D8511C002A2B8F /* MyFMTableCell.xib */; };
+		D3D757AA19D85C55002A2B8F /* cellarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D757A919D85C55002A2B8F /* cellarrow.png */; };
+		D3D757AF19D85CCE002A2B8F /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D757AB19D85CCE002A2B8F /* download.png */; };
+		D3D757B019D85CCE002A2B8F /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D757AC19D85CCE002A2B8F /* mobile.png */; };
+		D3D757B119D85CCE002A2B8F /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D757AD19D85CCE002A2B8F /* setting.png */; };
+		D3D757B219D85CCE002A2B8F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D757AE19D85CCE002A2B8F /* star.png */; };
+		D3D757B419DBA894002A2B8F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D757B319DBA894002A2B8F /* SettingViewController.swift */; };
+		D3D757D619DBC6CD002A2B8F /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757B819DBC6CD002A2B8F /* IASKAppSettingsViewController.m */; };
+		D3D757D719DBC6CD002A2B8F /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757BA19DBC6CD002A2B8F /* IASKAppSettingsWebViewController.m */; };
+		D3D757D819DBC6CD002A2B8F /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757BC19DBC6CD002A2B8F /* IASKSpecifierValuesViewController.m */; };
+		D3D757D919DBC6CD002A2B8F /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757C019DBC6CD002A2B8F /* IASKSettingsReader.m */; };
+		D3D757DA19DBC6CD002A2B8F /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757C219DBC6CD002A2B8F /* IASKSettingsStore.m */; };
+		D3D757DB19DBC6CD002A2B8F /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757C419DBC6CD002A2B8F /* IASKSettingsStoreFile.m */; };
+		D3D757DC19DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757C619DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.m */; };
+		D3D757DD19DBC6CD002A2B8F /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757C819DBC6CD002A2B8F /* IASKSpecifier.m */; };
+		D3D757DE19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757CB19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.m */; };
+		D3D757DF19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757CD19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.m */; };
+		D3D757E019DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757CF19DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.m */; };
+		D3D757E119DBC6CD002A2B8F /* IASKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757D119DBC6CD002A2B8F /* IASKSlider.m */; };
+		D3D757E219DBC6CD002A2B8F /* IASKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757D319DBC6CD002A2B8F /* IASKSwitch.m */; };
+		D3D757E319DBC6CD002A2B8F /* IASKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D757D519DBC6CD002A2B8F /* IASKTextField.m */; };
+		D3D757E519DBCB3A002A2B8F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3D757E419DBCB3A002A2B8F /* Settings.bundle */; };
+		D3E4B2C519C9D2FE0012A854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B2C419C9D2FE0012A854 /* AppDelegate.swift */; };
+		D3E4B2C719C9D2FE0012A854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B2C619C9D2FE0012A854 /* ViewController.swift */; };
+		D3E4B2CA19C9D2FE0012A854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B2C819C9D2FE0012A854 /* Main.storyboard */; };
+		D3E4B2CC19C9D2FE0012A854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E4B2CB19C9D2FE0012A854 /* Images.xcassets */; };
+		D3E4B2D819C9D2FE0012A854 /* DoubanMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4B2D719C9D2FE0012A854 /* DoubanMusicTests.swift */; };
+		D3F9B63B19DBEB950076BF61 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F9B63A19DBEB950076BF61 /* FrontViewController.swift */; };
+		D3F9B65219DC50AD0076BF61 /* topblur.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B65119DC50AD0076BF61 /* topblur.png */; };
+		D3FF979819CD1BE2006B157A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FF979519CD1BE2006B157A /* delete.png */; };
+		D3FF979919CD1BE2006B157A /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FF979619CD1BE2006B157A /* like.png */; };
+		D3FF979A19CD1BE2006B157A /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FF979719CD1BE2006B157A /* next.png */; };
+		D3FF979C19CD7430006B157A /* play_overlay_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FF979B19CD7430006B157A /* play_overlay_icon.png */; };
+		D3FF97CE19CDDF95006B157A /* splitter in Resources */ = {isa = PBXBuildFile; fileRef = D3FF97CD19CDDF95006B157A /* splitter */; };
+		D3FF97D019CE5F31006B157A /* ChannleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FF97CF19CE5F31006B157A /* ChannleListViewController.swift */; };
+		D3FFA46319CE9E24000468B5 /* ChannelTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3FFA46219CE9E24000468B5 /* ChannelTableCell.xib */; };
+		D3FFA46519CF08A6000468B5 /* playing.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FFA46419CF08A6000468B5 /* playing.png */; };
+		D3FFA46719CF09B5000468B5 /* ChannelTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFA46619CF09B5000468B5 /* ChannelTableCell.swift */; };
+		D3FFA46919D06DE9000468B5 /* PlayUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFA46819D06DE9000468B5 /* PlayUIView.swift */; };
+		D3FFA46B19D5C1B6000468B5 /* ChannelTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFA46A19D5C1B6000468B5 /* ChannelTabViewController.swift */; };
+		D3FFA47C19D5D947000468B5 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FFA47B19D5D947000468B5 /* search.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3E4B2D219C9D2FE0012A854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E4B2B719C9D2FE0012A854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E4B2BE19C9D2FE0012A854;
+			remoteInfo = DoubanMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F7F0896FAF94E83B44F3B27 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9076BF71F82C42B2A5D1BDCD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D311E0CE19DE53B700A472EF /* RoundUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundUIImageView.swift; sourceTree = "<group>"; };
+		D311E0D019DE667500A472EF /* RoundProgressUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundProgressUIView.swift; sourceTree = "<group>"; };
+		D3D7579F19D7069F002A2B8F /* userdefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userdefault.png; sourceTree = "<group>"; };
+		D3D757A119D85044002A2B8F /* MyFMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFMViewController.swift; sourceTree = "<group>"; };
+		D3D757A319D85084002A2B8F /* MyFMTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFMTableCell.swift; sourceTree = "<group>"; };
+		D3D757A719D8511C002A2B8F /* MyFMTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFMTableCell.xib; sourceTree = "<group>"; };
+		D3D757A919D85C55002A2B8F /* cellarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellarrow.png; sourceTree = "<group>"; };
+		D3D757AB19D85CCE002A2B8F /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		D3D757AC19D85CCE002A2B8F /* mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile.png; sourceTree = "<group>"; };
+		D3D757AD19D85CCE002A2B8F /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		D3D757AE19D85CCE002A2B8F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		D3D757B319DBA894002A2B8F /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D3D757B719DBC6CD002A2B8F /* IASKAppSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKAppSettingsViewController.h; sourceTree = "<group>"; };
+		D3D757B819DBC6CD002A2B8F /* IASKAppSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKAppSettingsViewController.m; sourceTree = "<group>"; };
+		D3D757B919DBC6CD002A2B8F /* IASKAppSettingsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKAppSettingsWebViewController.h; sourceTree = "<group>"; };
+		D3D757BA19DBC6CD002A2B8F /* IASKAppSettingsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKAppSettingsWebViewController.m; sourceTree = "<group>"; };
+		D3D757BB19DBC6CD002A2B8F /* IASKSpecifierValuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSpecifierValuesViewController.h; sourceTree = "<group>"; };
+		D3D757BC19DBC6CD002A2B8F /* IASKSpecifierValuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSpecifierValuesViewController.m; sourceTree = "<group>"; };
+		D3D757BD19DBC6CD002A2B8F /* IASKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKViewController.h; sourceTree = "<group>"; };
+		D3D757BF19DBC6CD002A2B8F /* IASKSettingsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsReader.h; sourceTree = "<group>"; };
+		D3D757C019DBC6CD002A2B8F /* IASKSettingsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsReader.m; sourceTree = "<group>"; };
+		D3D757C119DBC6CD002A2B8F /* IASKSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStore.h; sourceTree = "<group>"; };
+		D3D757C219DBC6CD002A2B8F /* IASKSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStore.m; sourceTree = "<group>"; };
+		D3D757C319DBC6CD002A2B8F /* IASKSettingsStoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreFile.h; sourceTree = "<group>"; };
+		D3D757C419DBC6CD002A2B8F /* IASKSettingsStoreFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStoreFile.m; sourceTree = "<group>"; };
+		D3D757C519DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreUserDefaults.h; sourceTree = "<group>"; };
+		D3D757C619DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStoreUserDefaults.m; sourceTree = "<group>"; };
+		D3D757C719DBC6CD002A2B8F /* IASKSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSpecifier.h; sourceTree = "<group>"; };
+		D3D757C819DBC6CD002A2B8F /* IASKSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSpecifier.m; sourceTree = "<group>"; };
+		D3D757CA19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKPSSliderSpecifierViewCell.h; sourceTree = "<group>"; };
+		D3D757CB19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKPSSliderSpecifierViewCell.m; sourceTree = "<group>"; };
+		D3D757CC19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKPSTextFieldSpecifierViewCell.h; sourceTree = "<group>"; };
+		D3D757CD19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKPSTextFieldSpecifierViewCell.m; sourceTree = "<group>"; };
+		D3D757CE19DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKPSTitleValueSpecifierViewCell.h; sourceTree = "<group>"; };
+		D3D757CF19DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKPSTitleValueSpecifierViewCell.m; sourceTree = "<group>"; };
+		D3D757D019DBC6CD002A2B8F /* IASKSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSlider.h; sourceTree = "<group>"; };
+		D3D757D119DBC6CD002A2B8F /* IASKSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSlider.m; sourceTree = "<group>"; };
+		D3D757D219DBC6CD002A2B8F /* IASKSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSwitch.h; sourceTree = "<group>"; };
+		D3D757D319DBC6CD002A2B8F /* IASKSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSwitch.m; sourceTree = "<group>"; };
+		D3D757D419DBC6CD002A2B8F /* IASKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKTextField.h; sourceTree = "<group>"; };
+		D3D757D519DBC6CD002A2B8F /* IASKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKTextField.m; sourceTree = "<group>"; };
+		D3D757E419DBCB3A002A2B8F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D3D757E819DBD06D002A2B8F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D3E4B2BF19C9D2FE0012A854 /* DoubanMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E4B2C319C9D2FE0012A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E4B2C419C9D2FE0012A854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3E4B2C619C9D2FE0012A854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3E4B2C919C9D2FE0012A854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3E4B2CB19C9D2FE0012A854 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3E4B2D119C9D2FE0012A854 /* DoubanMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E4B2D619C9D2FE0012A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E4B2D719C9D2FE0012A854 /* DoubanMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanMusicTests.swift; sourceTree = "<group>"; };
+		D3E4B2E419C9EC7E0012A854 /* DoubanMusic-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DoubanMusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3F9B63A19DBEB950076BF61 /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		D3F9B65119DC50AD0076BF61 /* topblur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topblur.png; sourceTree = "<group>"; };
+		D3FF979519CD1BE2006B157A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		D3FF979619CD1BE2006B157A /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		D3FF979719CD1BE2006B157A /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		D3FF979B19CD7430006B157A /* play_overlay_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_overlay_icon.png; sourceTree = "<group>"; };
+		D3FF97CD19CDDF95006B157A /* splitter */ = {isa = PBXFileReference; lastKnownFileType = file; path = splitter; sourceTree = "<group>"; };
+		D3FF97CF19CE5F31006B157A /* ChannleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannleListViewController.swift; sourceTree = "<group>"; };
+		D3FFA46219CE9E24000468B5 /* ChannelTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelTableCell.xib; sourceTree = "<group>"; };
+		D3FFA46419CF08A6000468B5 /* playing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playing.png; sourceTree = "<group>"; };
+		D3FFA46619CF09B5000468B5 /* ChannelTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableCell.swift; sourceTree = "<group>"; };
+		D3FFA46819D06DE9000468B5 /* PlayUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayUIView.swift; sourceTree = "<group>"; };
+		D3FFA46A19D5C1B6000468B5 /* ChannelTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTabViewController.swift; sourceTree = "<group>"; };
+		D3FFA47B19D5D947000468B5 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E4B2BC19C9D2FE0012A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D9B7771CD046EEA08AFAA2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E4B2CE19C9D2FE0012A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFDCD8797804A31B473EBEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9076BF71F82C42B2A5D1BDCD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D757B519DBC6CD002A2B8F /* InAppSettingsKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3D757B619DBC6CD002A2B8F /* Controllers */,
+				D3D757BE19DBC6CD002A2B8F /* Models */,
+				D3D757C919DBC6CD002A2B8F /* Views */,
+			);
+			path = InAppSettingsKit;
+			sourceTree = "<group>";
+		};
+		D3D757B619DBC6CD002A2B8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3D757B719DBC6CD002A2B8F /* IASKAppSettingsViewController.h */,
+				D3D757B819DBC6CD002A2B8F /* IASKAppSettingsViewController.m */,
+				D3D757B919DBC6CD002A2B8F /* IASKAppSettingsWebViewController.h */,
+				D3D757BA19DBC6CD002A2B8F /* IASKAppSettingsWebViewController.m */,
+				D3D757BB19DBC6CD002A2B8F /* IASKSpecifierValuesViewController.h */,
+				D3D757BC19DBC6CD002A2B8F /* IASKSpecifierValuesViewController.m */,
+				D3D757BD19DBC6CD002A2B8F /* IASKViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3D757BE19DBC6CD002A2B8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3D757BF19DBC6CD002A2B8F /* IASKSettingsReader.h */,
+				D3D757C019DBC6CD002A2B8F /* IASKSettingsReader.m */,
+				D3D757C119DBC6CD002A2B8F /* IASKSettingsStore.h */,
+				D3D757C219DBC6CD002A2B8F /* IASKSettingsStore.m */,
+				D3D757C319DBC6CD002A2B8F /* IASKSettingsStoreFile.h */,
+				D3D757C419DBC6CD002A2B8F /* IASKSettingsStoreFile.m */,
+				D3D757C519DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.h */,
+				D3D757C619DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.m */,
+				D3D757C719DBC6CD002A2B8F /* IASKSpecifier.h */,
+				D3D757C819DBC6CD002A2B8F /* IASKSpecifier.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3D757C919DBC6CD002A2B8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3D757CA19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.h */,
+				D3D757CB19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.m */,
+				D3D757CC19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.h */,
+				D3D757CD19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.m */,
+				D3D757CE19DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.h */,
+				D3D757CF19DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.m */,
+				D3D757D019DBC6CD002A2B8F /* IASKSlider.h */,
+				D3D757D119DBC6CD002A2B8F /* IASKSlider.m */,
+				D3D757D219DBC6CD002A2B8F /* IASKSwitch.h */,
+				D3D757D319DBC6CD002A2B8F /* IASKSwitch.m */,
+				D3D757D419DBC6CD002A2B8F /* IASKTextField.h */,
+				D3D757D519DBC6CD002A2B8F /* IASKTextField.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3D757E619DBCD3E002A2B8F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D3D757E419DBCB3A002A2B8F /* Settings.bundle */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		D3E4B2B619C9D2FE0012A854 = {
+			isa = PBXGroup;
+			children = (
+				D3E4B2C119C9D2FE0012A854 /* DoubanMusic */,
+				D3E4B2D419C9D2FE0012A854 /* DoubanMusicTests */,
+				D3E4B2C019C9D2FE0012A854 /* Products */,
+				D3D757E619DBCD3E002A2B8F /* Setting */,
+				4F7F0896FAF94E83B44F3B27 /* Pods.xcconfig */,
+				D3D757B519DBC6CD002A2B8F /* InAppSettingsKit */,
+				ACFDCD8797804A31B473EBEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E4B2C019C9D2FE0012A854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B2BF19C9D2FE0012A854 /* DoubanMusic.app */,
+				D3E4B2D119C9D2FE0012A854 /* DoubanMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E4B2C119C9D2FE0012A854 /* DoubanMusic */ = {
+			isa = PBXGroup;
+			children = (
+				D3FF979419CD1BBD006B157A /* images */,
+				D3E4B2E419C9EC7E0012A854 /* DoubanMusic-Bridging-Header.h */,
+				D3E4B2C419C9D2FE0012A854 /* AppDelegate.swift */,
+				D3FF97CF19CE5F31006B157A /* ChannleListViewController.swift */,
+				D3E4B2C619C9D2FE0012A854 /* ViewController.swift */,
+				D3E4B2C819C9D2FE0012A854 /* Main.storyboard */,
+				D3FFA46619CF09B5000468B5 /* ChannelTableCell.swift */,
+				D3FFA46219CE9E24000468B5 /* ChannelTableCell.xib */,
+				D3E4B2CB19C9D2FE0012A854 /* Images.xcassets */,
+				D3E4B2C219C9D2FE0012A854 /* Supporting Files */,
+				D3FFA46819D06DE9000468B5 /* PlayUIView.swift */,
+				D3FFA46A19D5C1B6000468B5 /* ChannelTabViewController.swift */,
+				D3D757A119D85044002A2B8F /* MyFMViewController.swift */,
+				D3D757A319D85084002A2B8F /* MyFMTableCell.swift */,
+				D3D757A719D8511C002A2B8F /* MyFMTableCell.xib */,
+				D3D757B319DBA894002A2B8F /* SettingViewController.swift */,
+				D3F9B63A19DBEB950076BF61 /* FrontViewController.swift */,
+				D311E0CE19DE53B700A472EF /* RoundUIImageView.swift */,
+				D311E0D019DE667500A472EF /* RoundProgressUIView.swift */,
+			);
+			path = DoubanMusic;
+			sourceTree = "<group>";
+		};
+		D3E4B2C219C9D2FE0012A854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B2C319C9D2FE0012A854 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3E4B2D419C9D2FE0012A854 /* DoubanMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B2D719C9D2FE0012A854 /* DoubanMusicTests.swift */,
+				D3E4B2D519C9D2FE0012A854 /* Supporting Files */,
+			);
+			path = DoubanMusicTests;
+			sourceTree = "<group>";
+		};
+		D3E4B2D519C9D2FE0012A854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4B2D619C9D2FE0012A854 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FF979419CD1BBD006B157A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D3F9B65119DC50AD0076BF61 /* topblur.png */,
+				D3D757AB19D85CCE002A2B8F /* download.png */,
+				D3D757AC19D85CCE002A2B8F /* mobile.png */,
+				D3D757AD19D85CCE002A2B8F /* setting.png */,
+				D3D757AE19D85CCE002A2B8F /* star.png */,
+				D3D757A919D85C55002A2B8F /* cellarrow.png */,
+				D3D7579F19D7069F002A2B8F /* userdefault.png */,
+				D3FFA47B19D5D947000468B5 /* search.png */,
+				D3FFA46419CF08A6000468B5 /* playing.png */,
+				D3FF97CD19CDDF95006B157A /* splitter */,
+				D3FF979B19CD7430006B157A /* play_overlay_icon.png */,
+				D3FF979519CD1BE2006B157A /* delete.png */,
+				D3FF979619CD1BE2006B157A /* like.png */,
+				D3FF979719CD1BE2006B157A /* next.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E4B2BE19C9D2FE0012A854 /* DoubanMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E4B2DB19C9D2FE0012A854 /* Build configuration list for PBXNativeTarget "DoubanMusic" */;
+			buildPhases = (
+				D09D9F5DAF524A449D9B3F0A /* Check Pods Manifest.lock */,
+				D3E4B2BB19C9D2FE0012A854 /* Sources */,
+				D3E4B2BC19C9D2FE0012A854 /* Frameworks */,
+				D3E4B2BD19C9D2FE0012A854 /* Resources */,
+				0364E449BE6C4E8D8080EAD1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanMusic;
+			productName = DoubanMusic;
+			productReference = D3E4B2BF19C9D2FE0012A854 /* DoubanMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3E4B2D019C9D2FE0012A854 /* DoubanMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E4B2DE19C9D2FE0012A854 /* Build configuration list for PBXNativeTarget "DoubanMusicTests" */;
+			buildPhases = (
+				D3E4B2CD19C9D2FE0012A854 /* Sources */,
+				D3E4B2CE19C9D2FE0012A854 /* Frameworks */,
+				D3E4B2CF19C9D2FE0012A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E4B2D319C9D2FE0012A854 /* PBXTargetDependency */,
+			);
+			name = DoubanMusicTests;
+			productName = DoubanMusicTests;
+			productReference = D3E4B2D119C9D2FE0012A854 /* DoubanMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E4B2B719C9D2FE0012A854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = zoopigzoo;
+				TargetAttributes = {
+					D3E4B2BE19C9D2FE0012A854 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 22249MHDPE;
+					};
+					D3E4B2D019C9D2FE0012A854 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D3E4B2BE19C9D2FE0012A854;
+					};
+				};
+			};
+			buildConfigurationList = D3E4B2BA19C9D2FE0012A854 /* Build configuration list for PBXProject "DoubanMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E4B2B619C9D2FE0012A854;
+			productRefGroup = D3E4B2C019C9D2FE0012A854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E4B2BE19C9D2FE0012A854 /* DoubanMusic */,
+				D3E4B2D019C9D2FE0012A854 /* DoubanMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E4B2BD19C9D2FE0012A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D757A019D7069F002A2B8F /* userdefault.png in Resources */,
+				D3FF979919CD1BE2006B157A /* like.png in Resources */,
+				D3FF979A19CD1BE2006B157A /* next.png in Resources */,
+				D3FF979819CD1BE2006B157A /* delete.png in Resources */,
+				D3E4B2CA19C9D2FE0012A854 /* Main.storyboard in Resources */,
+				D3D757AF19D85CCE002A2B8F /* download.png in Resources */,
+				D3E4B2CC19C9D2FE0012A854 /* Images.xcassets in Resources */,
+				D3FFA47C19D5D947000468B5 /* search.png in Resources */,
+				D3FF979C19CD7430006B157A /* play_overlay_icon.png in Resources */,
+				D3D757B219D85CCE002A2B8F /* star.png in Resources */,
+				D3FFA46519CF08A6000468B5 /* playing.png in Resources */,
+				D3FFA46319CE9E24000468B5 /* ChannelTableCell.xib in Resources */,
+				D3FF97CE19CDDF95006B157A /* splitter in Resources */,
+				D3D757B119D85CCE002A2B8F /* setting.png in Resources */,
+				D3F9B65219DC50AD0076BF61 /* topblur.png in Resources */,
+				D3D757B019D85CCE002A2B8F /* mobile.png in Resources */,
+				D3D757AA19D85C55002A2B8F /* cellarrow.png in Resources */,
+				D3D757E519DBCB3A002A2B8F /* Settings.bundle in Resources */,
+				D3D757A819D8511C002A2B8F /* MyFMTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E4B2CF19C9D2FE0012A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0364E449BE6C4E8D8080EAD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09D9F5DAF524A449D9B3F0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E4B2BB19C9D2FE0012A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D311E0CF19DE53B700A472EF /* RoundUIImageView.swift in Sources */,
+				D3FFA46B19D5C1B6000468B5 /* ChannelTabViewController.swift in Sources */,
+				D3D757A219D85044002A2B8F /* MyFMViewController.swift in Sources */,
+				D3FFA46919D06DE9000468B5 /* PlayUIView.swift in Sources */,
+				D3D757D819DBC6CD002A2B8F /* IASKSpecifierValuesViewController.m in Sources */,
+				D3E4B2C719C9D2FE0012A854 /* ViewController.swift in Sources */,
+				D3E4B2C519C9D2FE0012A854 /* AppDelegate.swift in Sources */,
+				D3D757DB19DBC6CD002A2B8F /* IASKSettingsStoreFile.m in Sources */,
+				D3D757DC19DBC6CD002A2B8F /* IASKSettingsStoreUserDefaults.m in Sources */,
+				D3D757DD19DBC6CD002A2B8F /* IASKSpecifier.m in Sources */,
+				D3D757DA19DBC6CD002A2B8F /* IASKSettingsStore.m in Sources */,
+				D3D757D919DBC6CD002A2B8F /* IASKSettingsReader.m in Sources */,
+				D311E0D119DE667500A472EF /* RoundProgressUIView.swift in Sources */,
+				D3D757B419DBA894002A2B8F /* SettingViewController.swift in Sources */,
+				D3F9B63B19DBEB950076BF61 /* FrontViewController.swift in Sources */,
+				D3D757E119DBC6CD002A2B8F /* IASKSlider.m in Sources */,
+				D3FFA46719CF09B5000468B5 /* ChannelTableCell.swift in Sources */,
+				D3D757E019DBC6CD002A2B8F /* IASKPSTitleValueSpecifierViewCell.m in Sources */,
+				D3D757DE19DBC6CD002A2B8F /* IASKPSSliderSpecifierViewCell.m in Sources */,
+				D3D757D719DBC6CD002A2B8F /* IASKAppSettingsWebViewController.m in Sources */,
+				D3D757E219DBC6CD002A2B8F /* IASKSwitch.m in Sources */,
+				D3D757DF19DBC6CD002A2B8F /* IASKPSTextFieldSpecifierViewCell.m in Sources */,
+				D3D757D619DBC6CD002A2B8F /* IASKAppSettingsViewController.m in Sources */,
+				D3FF97D019CE5F31006B157A /* ChannleListViewController.swift in Sources */,
+				D3D757A419D85084002A2B8F /* MyFMTableCell.swift in Sources */,
+				D3D757E319DBC6CD002A2B8F /* IASKTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E4B2CD19C9D2FE0012A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E4B2D819C9D2FE0012A854 /* DoubanMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3E4B2D319C9D2FE0012A854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E4B2BE19C9D2FE0012A854 /* DoubanMusic */;
+			targetProxy = D3E4B2D219C9D2FE0012A854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3E4B2C819C9D2FE0012A854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E4B2C919C9D2FE0012A854 /* Base */,
+				D3D757E819DBD06D002A2B8F /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3E4B2D919C9D2FE0012A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu 刘 (5W7C398WQZ)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3E4B2DA19C9D2FE0012A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu 刘 (5W7C398WQZ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E4B2DC19C9D2FE0012A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7F0896FAF94E83B44F3B27 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu 刘 (5W7C398WQZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu 刘 (5W7C398WQZ)";
+				INFOPLIST_FILE = DoubanMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoubanMusic/DoubanMusic-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		D3E4B2DD19C9D2FE0012A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7F0896FAF94E83B44F3B27 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu 刘 (5W7C398WQZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu 刘 (5W7C398WQZ)";
+				INFOPLIST_FILE = DoubanMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoubanMusic/DoubanMusic-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D3E4B2DF19C9D2FE0012A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubanMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanMusic.app/DoubanMusic";
+			};
+			name = Debug;
+		};
+		D3E4B2E019C9D2FE0012A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubanMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanMusic.app/DoubanMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E4B2BA19C9D2FE0012A854 /* Build configuration list for PBXProject "DoubanMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E4B2D919C9D2FE0012A854 /* Debug */,
+				D3E4B2DA19C9D2FE0012A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E4B2DB19C9D2FE0012A854 /* Build configuration list for PBXNativeTarget "DoubanMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E4B2DC19C9D2FE0012A854 /* Debug */,
+				D3E4B2DD19C9D2FE0012A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E4B2DE19C9D2FE0012A854 /* Build configuration list for PBXNativeTarget "DoubanMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E4B2DF19C9D2FE0012A854 /* Debug */,
+				D3E4B2E019C9D2FE0012A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E4B2B719C9D2FE0012A854 /* Project object */;
+}

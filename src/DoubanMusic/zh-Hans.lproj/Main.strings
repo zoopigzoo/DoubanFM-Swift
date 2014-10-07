@@ -1,0 +1,39 @@
+
+/* Class = "IBUIButton"; normalTitle = "likebtn"; ObjectID = "5Q2-sT-No0"; */
+"5Q2-sT-No0.normalTitle" = "likebtn";
+
+/* Class = "IBUILabel"; text = "|"; ObjectID = "Ebf-Xc-Hkg"; */
+"Ebf-Xc-Hkg.text" = "|";
+
+/* Class = "IBUILabel"; text = "MHz"; ObjectID = "H7j-0a-gWu"; */
+"H7j-0a-gWu.text" = "MHz";
+
+/* Class = "IBUILabel"; text = "节目"; ObjectID = "L5q-rC-9o1"; */
+"L5q-rC-9o1.text" = "节目";
+
+/* Class = "IBUIButton"; normalTitle = "nextbtn"; ObjectID = "UgA-Ff-n3d"; */
+"UgA-Ff-n3d.normalTitle" = "nextbtn";
+
+/* Class = "IBUILabel"; text = "Pink Panties"; ObjectID = "VS1-wn-LnK"; */
+"VS1-wn-LnK.text" = "Pink Panties";
+
+/* Class = "IBUILabel"; text = "登录"; ObjectID = "aSP-j1-isg"; */
+"aSP-j1-isg.text" = "登录";
+
+/* Class = "IBUILabel"; text = "Akia"; ObjectID = "c0v-Xb-Beg"; */
+"c0v-Xb-Beg.text" = "Akia";
+
+/* Class = "IBUILabel"; text = "|"; ObjectID = "gUc-kM-9Ig"; */
+"gUc-kM-9Ig.text" = "|";
+
+/* Class = "IBUIButton"; normalTitle = "delbtn"; ObjectID = "rZ5-mP-w7T"; */
+"rZ5-mP-w7T.normalTitle" = "delbtn";
+
+/* Class = "IBUILabel"; text = "ffdasfdasfasfsafdasfasd"; ObjectID = "t6q-ba-ckr"; */
+"t6q-ba-ckr.text" = "ffdasfdasfasfsafdasfasd";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "tL6-0r-kUY"; */
+"tL6-0r-kUY.title" = "Item";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "zO0-MR-V8e"; */
+"zO0-MR-V8e.title" = "Item";
