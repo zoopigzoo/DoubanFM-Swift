@@ -36,7 +36,7 @@ class ChannelListViewController: UIViewController,UITableViewDataSource,UITableV
         super.viewDidLoad()
         
         let nib = UINib(nibName: "ChannelTableCell", bundle: nil)
-        self.channelTable.registerNib(nib, forCellReuseIdentifier: "ChannelTableCell")
+        self.channelTable.registerNib(nib!, forCellReuseIdentifier: "ChannelTableCell")
         
         self.setMode(true)
     }

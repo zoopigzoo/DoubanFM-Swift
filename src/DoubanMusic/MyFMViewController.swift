@@ -21,7 +21,7 @@ class MyFMViewController: UIViewController,UITableViewDataSource,UITableViewDele
         super.viewDidLoad()
         
         let nib = UINib(nibName: "MyFMTableCell", bundle: nil)
-        self.myfmTable.registerNib(nib, forCellReuseIdentifier: "MyFMTableCell")
+        self.myfmTable.registerNib(nib!, forCellReuseIdentifier: "MyFMTableCell")
         
         if(self.settingController == nil) {
             self.settingController = IASKAppSettingsViewController()

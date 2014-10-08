@@ -33,11 +33,11 @@ class ChannelTableCell: UITableViewCell {
         
         let attributeString:NSMutableAttributedString = NSMutableAttributedString(string: displayText)
         
-        let beforefont: UIFont = UIFont(name: "Helvetica-Light", size: 19)
+        let beforefont: UIFont = UIFont(name: "Helvetica-Light", size: 19)!
         let beforeColorRange = NSMakeRange(0, displayLength-3)
         attributeString.addAttribute(NSFontAttributeName, value: beforefont, range:beforeColorRange)
         
-        let font: UIFont = UIFont(name: "Helvetica-Light", size: 15)
+        let font: UIFont = UIFont(name: "Helvetica-Light", size: 15)!
         let lastColorRange = NSMakeRange(displayLength-3, 3)
         attributeString.addAttribute(NSFontAttributeName, value: font, range:lastColorRange)
         

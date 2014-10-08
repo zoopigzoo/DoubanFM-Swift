@@ -195,7 +195,7 @@ class ViewController: UIViewController, ChannelProtocol {
         singername.text = songInfo["artist"] as NSString
         
         let url = songInfo["picture"] as NSString
-        let imgURL:NSURL=NSURL(string:url)
+        let imgURL:NSURL=NSURL(string:url)!
         let request:NSURLRequest=NSURLRequest(URL:imgURL)
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler: {(response:NSURLResponse!,data:NSData!,error:NSError!)->Void in
             let img=UIImage(data:data)

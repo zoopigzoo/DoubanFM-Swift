@@ -139,27 +139,27 @@ class FrontViewController: UIViewController {
     }
     
     override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
-        if(anim.valueForKey("songimagechangesize").isEqual("tosmall")) {
-            NSLog("end small\(self.playController!.songimage.frame.origin.x)")
-            NSLog("end small\(self.playController!.songimage.frame.size.width)")
-            NSLog("\(self.playController!.songimage.transform.a)")
-            self.playController!.songimage.frame = CGRectMake(27.0, 20.0, 30.0, 30.0)
-        } else if(anim.valueForKey("songimagechangesize").isEqual("tobig")){
-            NSLog("end big")
-            self.playController!.songimage.frame = CGRectMake(90, 85, 140, 140)
-        } else if(anim.valueForKey("songimagechangesize").isEqual("protosmall")){
-            NSLog("end pro small")
-            self.playController!.backroundprogress.frame = CGRectMake(24.86, 17.86, 34.28, 34.28)
-        } else if(anim.valueForKey("songimagechangesize").isEqual("protobig")){
-            NSLog("end pro big")
-            self.playController!.backroundprogress.frame = CGRectMake(80, 75, 160, 160)
-        } else if(anim.valueForKey("songimagechangesize").isEqual("playbtnsmall")){
-            NSLog("end playbtn small")
-            self.playController!.playBtn.frame = CGRectMake(24.86, 17.86, 34.28, 34.28)
-        } else if(anim.valueForKey("songimagechangesize").isEqual("playbtnbig")){
-            NSLog("end playbtn big")
-            self.playController!.playBtn.frame = CGRectMake(80, 75, 160, 160)
-        }
+//        if(anim.valueForKey("songimagechangesize").isEqual("tosmall")) {
+//            NSLog("end small\(self.playController!.songimage.frame.origin.x)")
+//            NSLog("end small\(self.playController!.songimage.frame.size.width)")
+//            NSLog("\(self.playController!.songimage.transform.a)")
+//            self.playController!.songimage.frame = CGRectMake(27.0, 20.0, 30.0, 30.0)
+//        } else if(anim.valueForKey("songimagechangesize").isEqual("tobig")){
+//            NSLog("end big")
+//            self.playController!.songimage.frame = CGRectMake(90, 85, 140, 140)
+//        } else if(anim.valueForKey("songimagechangesize").isEqual("protosmall")){
+//            NSLog("end pro small")
+//            self.playController!.backroundprogress.frame = CGRectMake(24.86, 17.86, 34.28, 34.28)
+//        } else if(anim.valueForKey("songimagechangesize").isEqual("protobig")){
+//            NSLog("end pro big")
+//            self.playController!.backroundprogress.frame = CGRectMake(80, 75, 160, 160)
+//        } else if(anim.valueForKey("songimagechangesize").isEqual("playbtnsmall")){
+//            NSLog("end playbtn small")
+//            self.playController!.playBtn.frame = CGRectMake(24.86, 17.86, 34.28, 34.28)
+//        } else if(anim.valueForKey("songimagechangesize").isEqual("playbtnbig")){
+//            NSLog("end playbtn big")
+//            self.playController!.playBtn.frame = CGRectMake(80, 75, 160, 160)
+//        }
     }
     
     func onTopTabTapped(recognizer: UITapGestureRecognizer) {
